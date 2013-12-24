@@ -1,0 +1,31 @@
+{
+   "name": "cpkg-utf8-conv",
+   "version": "0.0.1",
+   "description": "Recursively converts *.nuspec files to UTF-8 and *.ps1 file to UTF-8 with BOM.",
+   "author": "TomOne",
+   "keywords": [
+       "UTF-8",
+       "nuspec",
+       "ps1",
+       "Chocolatey" 
+   ],
+   "licenses": [
+       {
+           "type": "WTFPL",
+           "url": "http://www.wtfpl.net/" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "" 
+       } 
+   ],
+   "dependencies": {
+       "iconv-lite": "*",
+       "chardet": "*",
+       "glob": "*",
+       "colors": "*"
+   }
+}
+
